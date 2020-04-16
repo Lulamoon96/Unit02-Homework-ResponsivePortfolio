@@ -3,6 +3,16 @@ body {
     background-repeat: repeat;
 }
 
+.screenContainer {
+
+    background-color: white;
+    display: none;
+}
+
+.topContainer {
+    background-color: white;
+}
+
 .bioName {
 
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -40,9 +50,28 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
     
 }
 
 @media screen and (max-width: 640px) {
     
+    .topContainer {
+        
+        display: none;
+
+    }
+
+    .screenContainer {
+
+        display: block;
+
+    }
+
+    .bioName {
+
+        text-align: center;
+
+    }
+
 }
