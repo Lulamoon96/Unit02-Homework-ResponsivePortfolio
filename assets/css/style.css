@@ -1,0 +1,48 @@
+body {
+    background-image: url(../images/leaves-pattern.png);
+    background-repeat: repeat;
+}
+
+.bioName {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    background-color: #4aaaa5;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.navbar {
+
+    padding: 0;
+    height: 88px;
+    background-color: white;
+
+}
+
+
+.separator {
+
+    border-top: 2px solid #cccccc;
+    padding: 20px;
+
+}
+
+.about {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 640px) {
+    
+}
