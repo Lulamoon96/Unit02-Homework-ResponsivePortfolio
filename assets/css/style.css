@@ -75,21 +75,28 @@ p {
     color: #777777;
 }
 
+.fig {
+
+    max-height: 200px;
+}
+
+.separator2 {
+    height: 70px;
+}
+
 
 
 .footer {
-
     position: fixed;
     bottom: 0;
     left: 0;
     background-color: #666666;
     color: white;
+    text-align: center;
     width: 100%;
     height: 66px;
     margin: 0 auto;
     border-top: 6px solid #4aaaa5;
-    text-align: center;
-
 }
 
 @media screen and (max-width: 640px) {
